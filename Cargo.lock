@@ -595,7 +595,7 @@ checksum = "8f07f22e1afab73629dd296ba65e2ea45f1ba0712b762eb157be7287ee604450"
 dependencies = [
  "bevy",
  "bytemuck",
- "ggrs",
+ "ggrs 0.9.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "instant",
  "log",
 ]
@@ -2135,6 +2135,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "ggrs"
+version = "0.9.1"
+source = "git+https://github.com/gschup/ggrs#9e4a20a6317cfdcff9c352e6f2a37feb33576e54"
+dependencies = [
+ "bincode",
+ "bitfield-rle",
+ "bytemuck",
+ "instant",
+ "js-sys",
+ "parking_lot 0.11.2",
+ "rand",
+ "serde",
+]
+
+[[package]]
 name = "ghash"
 version = "0.3.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2689,7 +2704,7 @@ dependencies = [
  "clap",
  "console_error_panic_hook",
  "console_log",
- "ggrs",
+ "ggrs 0.9.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "log",
  "matchbox_socket",
  "serde",
@@ -2743,7 +2758,7 @@ dependencies = [
  "futures-channel",
  "futures-timer",
  "futures-util",
- "ggrs",
+ "ggrs 0.9.1 (git+https://github.com/gschup/ggrs)",
  "js-sys",
  "log",
  "serde",
